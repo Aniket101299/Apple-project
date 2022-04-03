@@ -1,6 +1,6 @@
 import './App.css';
-import { Airpods } from './Components/Airpods';
-import { TVandHome } from './Components/TVandHome/TVandHome';
+import { Airpod } from './Components/Airpods/Airpods';
+// import { TVandHome } from './Components/TVandHome/TVandHome';
 
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
    
-    <Airpods/>
+    <Airpod/>
     
     {/* <TVandHome/> */}
 

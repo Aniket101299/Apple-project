@@ -78,7 +78,7 @@ const tvmovieData = [{url:"https://www.apple.com/v/tv-home/c/images/overview/tv_
 
     <div className="watch"> Watch, sing, play, and work out. On the big screen. </div>
 
-    <div className="video" >
+    <div className="tvvideo" >
     <div className="viinn">
     <ReactPlayer fluid={false} width='100%' height='660px' autoPlay={true} playing={true} loop={true} muted={true} url='https://www.apple.com/105/media/us/tv-home/2021/6123d7e6-6428-4838-aa37-65d1c499e3b7/anim/sizzle/large_2x.mp4#t=3.832313' />  
     </div>

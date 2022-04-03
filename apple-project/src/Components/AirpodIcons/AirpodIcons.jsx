@@ -1,4 +1,4 @@
-import "./Airpods.css";
+import "../Airpods/Airpods.css";
 
 export function Icons() {
 

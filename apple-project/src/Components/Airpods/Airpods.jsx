@@ -1,15 +1,16 @@
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";  // npm i react-player 
+import { Icons } from "../AirpodIcons/AirpodIcons";
+import { AirpodsQue } from "../AirpodsQue/AirpodsQue";
+import { Features } from "../Features/Features";
+import { Hours } from "../Hours/Hours";
+import { ImageSlider } from "../ImageSlider/ImageSlider";
 import "./Airpods.css";
-import { Icons } from "./Icons";
-import {ImageSlider} from "../Components/ImageSlider/ImageSlider.jsx";
-import {AirpodsQue} from "../Components/AirpodsQue/AirpodsQue.jsx";
-import { Features } from "./Features/Features";
-import { Hours } from "./Hours/Hours";
 
 
 
 
-export function Airpods() {
+
+export function Airpod() {
 
 const featureData = [{img:"",txt:"-"},{img:"https://www.apple.com/v/airpods/shared/compare/a/images/compare/icon_spatial_audio__kmoa5vlnkdmm_large_2x.png",txt:"Spatial audio with dynamic head tracking 4"},{img:"https://www.apple.com/v/airpods/shared/compare/a/images/compare/icon_spatial_audio__kmoa5vlnkdmm_large_2x.png",txt:"Spatial audio with dynamic head tracking 4"},{img:"https://www.apple.com/v/airpods/shared/compare/a/images/compare/icon_spatial_audio__kmoa5vlnkdmm_large_2x.png",txt:"Spatial audio with dynamic head tracking 4"},
                      {img:"",txt:"-"},{img:"",txt:"-"},{img:"https://user-images.githubusercontent.com/91543059/161094805-87689d50-aefd-4f9c-93d5-278bbde4951d.png",txt:"Active Noise Cancellation and Transparency mode"},{img:"https://user-images.githubusercontent.com/91543059/161094805-87689d50-aefd-4f9c-93d5-278bbde4951d.png",txt:"Active Noise Cancellation and Transparency mode"},
@@ -22,6 +23,7 @@ const hourData = [{hour:"5 hrs",txt:"Up to 5 hours of listening time with a sing
 
 return(
     <>
+    
     <Icons/>
 
     <div className="get">Get 6 months of Apple Music free with your AirPods.* <span className="check"> Check eligibility {'>'} </span> </div>
@@ -116,13 +118,14 @@ return(
   <p className="que"> Which AirPods are  </p> 
   <p className="que mt"> right for you? </p>
 
-  <AirpodsQue/>
 
+<AirpodsQue/>
 
 
   <div className="featuresDiv">
   {featureData.map((e)=> {
      return <>
+        
          <Features img={e.img} txt={e.txt} />
      </>
   })}
@@ -133,6 +136,7 @@ return(
   <div className="hourDiv">
   {hourData.map((e)=> {
      return <>
+    
          <Hours hour={e.hour} txt={e.txt} />
      </>
   })}

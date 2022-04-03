@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./AccessSlider.css";
 import { SingleImage } from "./SingleImage";
 

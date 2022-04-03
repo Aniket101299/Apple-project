@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./TvImageSlider.css";
 import { SingleImage } from "./SingleImage";
 
