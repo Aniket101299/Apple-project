@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-Apple
+Apple.com
 
 Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services.
 
@@ -15,7 +15,7 @@ Apple is the largest information technology company by revenue (totaling US$365.
 
 # Apple Clone
 
-Deployment Link :- https://mytheresa-clone.vercel.app/
+Deployment Link :- https://apple-clone-shersha.netlify.app/
 
 ## Built with Tech Stacks:
 
@@ -23,6 +23,8 @@ Deployment Link :- https://mytheresa-clone.vercel.app/
 - CSS
 - Advanced JavaScript (ES6)
 - React
+- Tailwindcss
+- Material UI
 
 ## Features:
 
@@ -74,7 +76,7 @@ This is the home page of website from where user can explore different types of 
 
 From this page by signing up user can create his/her account for login to website.
 
-![Sign_in_Login](https://user-images.githubusercontent.com/91543059/159116961-a3543b83-7904-441f-b9c1-3e51fef76060.png)
+![Sign_in_Login](https://user-images.githubusercontent.com/91543059/161443125-c0a969f1-e983-4efe-9b69-d66fc74ec746.png)
 
 ## Cart Page
 
@@ -86,7 +88,7 @@ This is the cart page where user can see the products that was added in the cart
 
 This is the payment page of the website from here user can pay the amount and order the products. User can make payment of total amount shown in cart.
 
-![Payment](https://user-images.githubusercontent.com/91543059/159118069-91efdb19-d94d-4c62-94f2-837d0f3b7557.png)
+![Payment](https://user-images.githubusercontent.com/91543059/161443094-252db952-d4f6-4523-9bfa-10fb42c64a00.png)
 
 ## [Getting Started]
 
